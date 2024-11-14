@@ -1,20 +1,27 @@
 /// https://practice.course.rs/variables.html
 #[test]
-fn test31() {
-    let x: i32 = 5; // Uninitialized but used, ERROR !
-    let _y: i32; // Uninitialized but also unused, only a Warning !
+fn test36() {
+    let mut x: i32 = 1;
+    x = 7;
+    // Shadowing and re-binding
+    let mut _x = x;
+    x += 3;
 
-    assert_eq!(x, 5);
+
+    let y = 4;
+    // Shadowing
+    let _y = "I can also be bound to text!";
+
     println!("Success!");
 }
 
 #[test]
-fn test399() {
-    let x = 5;
-    let y = 10;
+fn test39() {
+    let (x, y);
+    (x,..) = (3, 4);
+    [.., y] = [1, 2];
+    // Fill the blank to make the code work
+    assert_eq!([x,y], [3, 2]);
 
-    let real = x + y;
-    let expected = 15;
-
-    assert_eq!(real, expected);
+    println!("Success!");
 }
