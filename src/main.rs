@@ -13,6 +13,9 @@ mod staircase;
 mod min_max_sum;
 mod birthday_cake_candles;
 mod time_conversation;
+mod grading_students;
+mod apple_and_orange;
+mod number_line_jumps;
 
 fn main() {
     println!("Hello, world!");
