@@ -16,6 +16,9 @@ mod time_conversation;
 mod grading_students;
 mod apple_and_orange;
 mod number_line_jumps;
+mod between_two_sets;
+mod breacking_the_records;
+mod subarray_devision;
 
 fn main() {
     println!("Hello, world!");
