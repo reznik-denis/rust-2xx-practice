@@ -19,6 +19,9 @@ mod number_line_jumps;
 mod between_two_sets;
 mod breacking_the_records;
 mod subarray_devision;
+mod divisible_sum_pairs;
+mod migratory_birds;
+mod bill_division;
 
 fn main() {
     println!("Hello, world!");
