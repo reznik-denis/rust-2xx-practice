@@ -22,6 +22,7 @@ mod subarray_devision;
 mod divisible_sum_pairs;
 mod migratory_birds;
 mod bill_division;
+mod sales_by_match;
 
 fn main() {
     println!("Hello, world!");
