@@ -23,6 +23,7 @@ mod divisible_sum_pairs;
 mod migratory_birds;
 mod bill_division;
 mod sales_by_match;
+mod drawing_book;
 
 fn main() {
     println!("Hello, world!");
